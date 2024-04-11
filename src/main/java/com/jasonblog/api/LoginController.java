@@ -26,7 +26,7 @@ public class LoginController {
                 .accept(MediaType.APPLICATION_JSON)
                 .retrieve()
                 .body(String.class);
-
+        System.out.println(result);
 
     }
 }
